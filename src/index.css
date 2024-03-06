@@ -1,0 +1,48 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header{
+  display: grid;
+  background-color: black;
+  color: whitesmoke;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-family:cursive;
+  position: fixed;
+  width: 100vw;
+  padding: 10px;
+
+}
+header .first{
+  grid-column-start: 1;
+}
+header .last{
+  grid-column-start: 14;
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  padding: 10px;
+}
+
+.table{
+  padding: 60px;
+}
